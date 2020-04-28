@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/siqiliu/Projects/GrpcDemo/GrpcClient/GrpcClient.csproj": {}
+  },
+  "projects": {
+    "/Users/siqiliu/Projects/GrpcDemo/GrpcClient/GrpcClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/siqiliu/Projects/GrpcDemo/GrpcClient/GrpcClient.csproj",
+        "projectName": "GrpcClient",
+        "projectPath": "/Users/siqiliu/Projects/GrpcDemo/GrpcClient/GrpcClient.csproj",
+        "packagesPath": "/Users/siqiliu/.nuget/packages/",
+        "outputPath": "/Users/siqiliu/Projects/GrpcDemo/GrpcClient/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/siqiliu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/siqiliu/Projects/GrpcDemo/GrpcServer/GrpcServer.csproj": {
+                "projectPath": "/Users/siqiliu/Projects/GrpcDemo/GrpcServer/GrpcServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.11.4, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.28.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/siqiliu/Projects/GrpcDemo/GrpcServer/GrpcServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/siqiliu/Projects/GrpcDemo/GrpcServer/GrpcServer.csproj",
+        "projectName": "GrpcServer",
+        "projectPath": "/Users/siqiliu/Projects/GrpcDemo/GrpcServer/GrpcServer.csproj",
+        "packagesPath": "/Users/siqiliu/.nuget/packages/",
+        "outputPath": "/Users/siqiliu/Projects/GrpcDemo/GrpcServer/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/siqiliu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
